@@ -33,11 +33,8 @@
           <h4
             class="text-sm font-semibold leading-5 tracking-wider uppercase text-bsand-400"
           >
-            Subscribe to our newsletter
+            Tilmeld dig vores Nyhedsbrev
           </h4>
-          <p class="mt-4 text-base leading-6 text-bsand-200">
-            The latest news, articles, and resources, sent to your inbox weekly.
-          </p>
           <form class="mt-4 sm:flex sm:max-w-md">
             <label for="emailAddress" class="sr-only">Email address</label>
             <input
@@ -56,6 +53,22 @@
               </button>
             </div>
           </form>
+          <div class="flex items-center mt-8 space-x-2">
+            <img
+              src="/emaerke.png"
+              class="p-2 bg-white rounded-lg w-14 h-14"
+              alt=""
+            />
+            <p class="leading-tight text-bsand-200">
+              Silkeland.dk certificeret af e-mærket siden 2013.
+              <a
+                class="underline text-bsand-100"
+                href="https://certifikat.emaerket.dk/silkeland.dk"
+                >Se certificatet her</a
+              >
+            </p>
+          </div>
+          <img src="/payments.png" class="mt-4" alt="" />
         </div>
       </div>
       <div
@@ -91,9 +104,27 @@
             </svg>
           </a>
         </div>
-        <p class="mt-8 text-base leading-6 text-bsand-200 md:mt-0 md:order-1">
-          &copy; 2020 Silkeland A/S. All rights reserved.
-        </p>
+        <div
+          class="flex flex-col items-center mt-8 space-x-2 text-sm leading-6 text-bsand-200 md:mt-0 md:order-1 md:flex-row lg:text-base"
+        >
+          <span>Silkeland</span
+          ><span
+            class="hidden w-1 h-1 rounded-full bg-bsand-400 md:block"
+          ></span>
+          <span>Mariedalsvej </span
+          ><span
+            class="hidden w-1 h-1 rounded-full bg-bsand-400 md:block"
+          ></span>
+          <span>8220 Brabrand</span
+          ><span
+            class="hidden w-1 h-1 rounded-full bg-bsand-400 md:block"
+          ></span>
+          <span>Tlf.: +45 4358 4494</span
+          ><span
+            class="hidden w-1 h-1 rounded-full bg-bsand-400 md:block"
+          ></span>
+          <a href="mailto:info@silkeland.dk">info@silkeland.dk</a>
+        </div>
       </div>
     </div>
   </footer>

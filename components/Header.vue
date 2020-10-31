@@ -6,16 +6,44 @@
   <!-- This example requires Tailwind CSS v1.4.0+ -->
   <div class="relative z-20 bg-white shadow">
     <div class="hidden border-b bg-bgreen-50 border-bgreen-200 lg:block">
-      <div class="flex justify-end w-full px-4 mx-auto space-x-4 max-w-7xl">
-        <a href="#" class="px-4 py-3 text-bgreen-300 hover:text-bgreen-500"
+      <div
+        class="flex items-center justify-end w-full px-4 mx-auto space-x-4 max-w-7xl"
+      >
+        <a
+          href="#"
+          class="px-4 py-3 text-sm text-bgreen-300 hover:text-bgreen-600"
           >Handelsbetingelser</a
         >
-        <a href="#" class="px-4 py-3 text-bgreen-300 hover:text-bgreen-500"
+        <a
+          href="#"
+          class="px-4 py-3 text-sm text-bgreen-300 hover:text-bgreen-600"
           >Om os</a
         >
-        <a href="#" class="px-4 py-3 text-bgreen-300 hover:text-bgreen-500"
-          >Kontakt</a
-        >
+        <a
+          href="#"
+          class="flex items-center py-3 pl-4 pr-2 space-x-4 text-sm text-bgreen-300 hover:text-bgreen-600"
+          ><span>Kontakt</span>
+          <div
+            class="flex items-center px-2 py-1 space-x-2 rounded bg-bgreen-100 text-bgreen-500"
+          >
+            <span
+              ><svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                ></path></svg
+            ></span>
+            <span>(+45) 4358 4494</span>
+          </div>
+        </a>
       </div>
     </div>
     <div class="relative bg-white shadow">
