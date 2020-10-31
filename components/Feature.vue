@@ -10,7 +10,7 @@
       />
     </div>
     <div
-      class="relative z-10 flex flex-col justify-center row-start-1 p-4 bg-white rounded-t-none shadow-2xl sm:p-8 sm:mx-4 sm:p-16 lg:my-32 lg:col-span-3 xl:col-span-2 lg:col-start-3 xl:col-start-4 rounded-b-3xl sm:rounded-3xl sm:-mt-16 lg:mx-0"
+      class="relative z-10 flex flex-col justify-center row-start-1 p-4 bg-white rounded-t-none shadow-2xl sm:mx-4 sm:p-16 lg:my-32 lg:col-span-3 xl:col-span-2 lg:col-start-3 xl:col-start-4 rounded-b-3xl sm:rounded-3xl sm:-mt-16 lg:mx-0"
     >
       <p class="text-sm font-medium uppercase text-bgreen-500 sm:text-base">
         Cras fermentum leo sed
