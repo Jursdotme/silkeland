@@ -4,5 +4,7 @@
     <TrustPilot />
     <SellingPoints />
     <LatestProducts />
+    <Feature />
+    <CallToAction />
   </div>
 </template>
