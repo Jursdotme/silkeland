@@ -9,6 +9,9 @@ module.exports = {
       sans: ['Poppins', 'Arial', 'sans-serif'],
     },
     extend: {
+      height: {
+        128: '32rem',
+      },
       colors: {
         white: '#ffffff',
         black: '#000000',

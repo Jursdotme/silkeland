@@ -13,10 +13,10 @@
       </p>
     </div>
     <div class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-3">
-      <a
+      <nuxt-link
         v-for="(category, index) in categories"
         :key="index"
-        href="#"
+        to="/productcat"
         class="relative overflow-hidden shadow-lg rounded-2xl hover:shadow-2xl group hover:scale-105"
       >
         <img
@@ -38,7 +38,7 @@
             {{ category.description }}
           </p>
         </div>
-      </a>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -52,22 +52,19 @@ export default {
           title: 'Silkedyner',
           description:
             'Med en silkedyne er du sikret et allergivenligt sovemiljø.',
-          image:
-            'https://images.unsplash.com/photo-1573679740278-a2eeb1b549a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80',
+          image: '/dynekat.jpg',
         },
         {
           title: 'Silkepuder',
           description:
             'Med en silkedyne er du sikret et allergivenligt sovemiljø.',
-          image:
-            'https://images.unsplash.com/photo-1550328927-3b33885318fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80',
+          image: '/pudekat.jpg',
         },
         {
           title: 'Silkebetræk',
           description:
             'Med en silkedyne er du sikret et allergivenligt sovemiljø.',
-          image:
-            'https://images.unsplash.com/photo-1561316441-2ab442340b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+          image: '/lagenkat.jpg',
         },
       ],
     }

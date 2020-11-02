@@ -7,8 +7,11 @@
   <div class="relative z-20 bg-white shadow">
     <div class="hidden border-b bg-bgreen-50 border-bgreen-200 lg:block">
       <div
-        class="flex items-center justify-end w-full px-4 mx-auto space-x-4 max-w-7xl"
+        class="flex items-center justify-between w-full px-4 mx-auto space-x-4 max-w-7xl"
       >
+        <div class="flex-1">
+          <div id="emaerket-widget-m9agjja37hi"></div>
+        </div>
         <a
           href="#"
           class="px-4 py-3 text-sm text-bgreen-300 hover:text-bgreen-600"
@@ -50,9 +53,9 @@
       <div class="px-4 mx-auto max-w-7xl sm:px-6">
         <div class="flex items-center justify-between py-6 md:space-x-10">
           <div class="flex">
-            <a href="#" class="inline-flex">
+            <nuxt-link to="/" class="inline-flex">
               <img class="w-auto h-12 sm:h-16" src="/Logo.png" alt="Workflow" />
-            </a>
+            </nuxt-link>
           </div>
           <div class="-my-2 -mr-2 lg:hidden">
             <button
@@ -78,24 +81,24 @@
             </button>
           </div>
           <nav class="hidden space-x-6 xl:space-x-10 lg:flex">
-            <a
-              href="#"
+            <nuxt-link
+              to="/productcat"
               class="inline-flex items-center text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
             >
               Silkedyner
-            </a>
-            <a
-              href="#"
+            </nuxt-link>
+            <nuxt-link
+              to="/productcat"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
             >
               Silkepuder
-            </a>
-            <a
-              href="#"
+            </nuxt-link>
+            <nuxt-link
+              to="/productcat"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
             >
               Silkesengetøj
-            </a>
+            </nuxt-link>
             <a
               href="#"
               class="inline-flex items-center text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
@@ -193,13 +196,13 @@
             >
               <div class="px-5 pt-5 pb-6 space-y-6">
                 <div class="flex items-center justify-between">
-                  <div>
+                  <nuxt-link to="/">
                     <img
                       class="w-auto h-12 sm:h-16"
                       src="/Logo.png"
                       alt="Workflow"
                     />
-                  </div>
+                  </nuxt-link>
                   <div class="-mr-2">
                     <button
                       type="button"
@@ -226,8 +229,8 @@
                 </div>
                 <div>
                   <nav class="grid gap-y-8">
-                    <a
-                      href="#"
+                    <nuxt-link
+                      to="/productcat"
                       class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
                     >
                       <!-- Heroicon name: chart-bar -->
@@ -251,9 +254,9 @@
                       >
                         Silkedyner
                       </div>
-                    </a>
-                    <a
-                      href="#"
+                    </nuxt-link>
+                    <nuxt-link
+                      to="/productcat"
                       class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
                     >
                       <!-- Heroicon name: cursor-click -->
@@ -277,9 +280,9 @@
                       >
                         Silkepuder
                       </div>
-                    </a>
-                    <a
-                      href="#"
+                    </nuxt-link>
+                    <nuxt-link
+                      to="/productcat"
                       class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
                     >
                       <!-- Heroicon name: shield-check -->
@@ -303,7 +306,7 @@
                       >
                         Silkesengetøj
                       </div>
-                    </a>
+                    </nuxt-link>
                     <a
                       href="#"
                       class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50"

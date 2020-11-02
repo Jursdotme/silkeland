@@ -18,6 +18,13 @@ export default {
         rel: 'stylesheet',
       },
     ],
+    script: [
+      {
+        hid: 'emaerket',
+        src: 'https://widget.emaerket.dk/js/fd1a98b1252179343bb24d391cc44222',
+        defer: true,
+      },
+    ],
     bodyAttrs: {
       class: 'font-sans',
     },
