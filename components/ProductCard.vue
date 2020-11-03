@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col overflow-hidden bg-white shadow-lg rounded-3xl">
-    <nuxt-link to="/productcat" class="relative flex-shrink-0 overflow-visible">
+    <nuxt-link to="/product" class="relative flex-shrink-0 overflow-visible">
       <span
         v-if="product.onSale"
         class="absolute px-4 py-1 text-white -translate-y-1/2 bg-orange-500 rounded-br-3xl"
@@ -11,7 +11,7 @@
     <div class="flex flex-col justify-between flex-1 p-6">
       <div class="flex-1">
         <p class="text-sm font-medium leading-5 uppercase text-bgreen-400">
-          <nuxt-link to="/product" class="hover:underline">
+          <nuxt-link to="/productcat" class="hover:underline">
             {{ product.category }}
           </nuxt-link>
         </p>
