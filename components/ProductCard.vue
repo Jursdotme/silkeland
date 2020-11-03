@@ -11,9 +11,11 @@
     <div class="flex flex-col justify-between flex-1 p-6">
       <div class="flex-1">
         <p class="text-sm font-medium leading-5 uppercase text-bgreen-400">
-          <a href="#" class="hover:underline"> {{ product.category }} </a>
+          <nuxt-link to="/product" class="hover:underline">
+            {{ product.category }}
+          </nuxt-link>
         </p>
-        <a href="#" class="block">
+        <nuxt-link to="/product" class="block">
           <h3 class="mt-2 text-bsand-700">
             {{ product.title }}
           </h3>
@@ -23,7 +25,7 @@
             >
             {{ product.salePrice }},-
           </p>
-        </a>
+        </nuxt-link>
       </div>
     </div>
     <div class="px-6 pb-6">
@@ -86,10 +88,10 @@
           <span class="text-bgreen-600">1-2 dage</span>
         </div>
       </div>
-      <a
-        href="#"
+      <nuxt-link
+        to="/product"
         class="block py-2 text-center text-white transition-all duration-100 rounded-lg shadow-lg bg-bgreen-400 hover:bg-bgreen-500 hover:shadow-xl"
-        >Køb nu</a
+        >Køb nu</nuxt-link
       >
     </div>
   </div>

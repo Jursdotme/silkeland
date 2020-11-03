@@ -1,52 +1,7 @@
 <template>
   <div class="relative px-4 pt-16 pb-20 sm:px-6 lg:pt-16 lg:pb-28 lg:px-8">
     <div class="relative mx-auto max-w-7xl">
-      <div class="relative px-2 sm:px-6 lg:px-8">
-        <div>
-          <figure>
-            <img
-              class="object-cover w-full rounded-lg shadow-xl sm-h-64 md:h-128"
-              src="/dynekat.jpg"
-              alt=""
-              width="1310"
-              height="873"
-            />
-          </figure>
-        </div>
-        <div
-          class="relative grid gap-8 pt-8 md:bg-white md:shadow-2xl mx-62 md:mx-8 lg:grid-cols-3 md:-mt-32 md:p-14 rounded-3xl"
-        >
-          <div class="col-span-2 mx-auto text-lg max-w-prose">
-            <h1
-              class="text-base font-semibold leading-6 tracking-wide uppercase text-bgreen-500"
-            >
-              Silkedyner
-            </h1>
-            <p
-              class="mt-2 mb-8 text-2xl font-extrabold leading-8 tracking-tight text-gray-900 md:text-3xl sm:text-4xl sm:leading-10"
-            >
-              Få et allergivenligt sovemiljø med luksusdyner i silke
-            </p>
-            <p class="text-base leading-8 text-bsand-600 md:text-xl">
-              Silkedyner sørger for at regulere din krops temperatur natten
-              igennem, så du hverken fryser eller sveder. Dyner fra Silkeland er
-              desuden produceret af den fineste langfibrede Mulberry silke, der
-              blandt eksperter anses for at være langt den bedste kvalitet. Du
-              får med andre ord en luksusdyne i bedste kvalitet når du handler
-              hos os.
-            </p>
-          </div>
-          <div class="mx-auto prose lg:prose-lg text-bsand-600">
-            <ul>
-              <li>Undgå husstøvmider i dit soveværelse</li>
-              <li>Få et allergivenligt sovemiljø</li>
-              <li>Oplev silkens fremragende temperaturregulerende effekt</li>
-              <li>60 dages fuld returret på alle varer</li>
-              <li>Gratis levering samt returfragt</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <ProductCatTop />
       <div
         class="grid max-w-lg gap-8 mx-auto mt-12 md:grid-cols-2 lg:grid-cols-4 md:max-w-none"
       >
@@ -55,6 +10,47 @@
           :key="product.id"
           :product="product"
         />
+      </div>
+      <div class="grid grid-cols-3 mt-32">
+        <div class="col-span-2 mx-auto prose">
+          <h2>Silkedyne fra Silkeland</h2>
+          <p class="lead">
+            Der er mange gode grunde til at vælge en silkedyne, når du er på
+            udkig efter en ny dyne.
+          </p>
+          <p>
+            Silkedyner sørger for at
+            <strong>regulere din krops temperatur</strong> natten igennem, så du
+            hverken fryser eller sveder, hvad enten det er sommer eller vinter.
+            Dyner fra Silkeland er desuden produceret af
+            <strong>100 % ægte</strong> Mulberry silke fra Kina. Denne silketype
+            anses for at være den fineste, og du får dermed en
+            <strong>luksusdyne</strong> i bedste kvalitet, når du handler hos
+            os.
+          </p>
+          <p>
+            Med silkedyner fra Silkeland er du sikret et
+            <strong>allergivenligt sovemiljø</strong> – niveauet af
+            husstøvsmider reduceres nemlig helt automatisk, når du går fra
+            traditionelle dundyner til silkedyner. Silkedyner er desuden
+            <strong>nemme at holde rene og friske</strong>. Du skal ikke tænke
+            på andet end at give dig hen til skøn nattesøvn i drømmeland.
+          </p>
+          <p>
+            Når du først er ejer af en silkedyne, vil du også eje en silkepude.
+            Se vores udvalg af
+            <nuxt-link to="/productcat">silkepuder her</nuxt-link>. Find det
+            rigtige
+            <nuxt-link to="/productcat"
+              >silkesengetøj til silkedynen her</nuxt-link
+            >. Sørg for at silken bevarer farverne, fortsat skinner og er blød
+            og smidig efter vask med vores
+            <nuxt-link to="/productcat">plejemiddel</nuxt-link>.
+          </p>
+        </div>
+        <div class="col-span-1">
+          <ProductCatQuote />
+        </div>
       </div>
     </div>
   </div>

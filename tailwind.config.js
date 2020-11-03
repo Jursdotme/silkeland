@@ -5,6 +5,19 @@ module.exports = {
   },
   purge: [],
   theme: {
+    typography: {
+      default: {
+        css: {
+          color: '#333',
+          a: {
+            color: '#7e9e3e',
+            '&:hover': {
+              color: '#4c6327',
+            },
+          },
+        },
+      },
+    },
     fontFamily: {
       sans: ['Poppins', 'Arial', 'sans-serif'],
     },
