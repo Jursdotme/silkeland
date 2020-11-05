@@ -9,6 +9,24 @@
             src="/product-large.jpg"
           />
         </div>
+        <div class="grid grid-cols-4 gap-8 mt-8">
+          <img
+            src="/product-large.jpg"
+            class="object-cover h-32 shadow-lg rounded-xl"
+          />
+          <img
+            src="/product-large.jpg"
+            class="object-cover h-32 shadow-lg rounded-xl"
+          />
+          <img
+            src="/product-large.jpg"
+            class="object-cover h-32 shadow-lg rounded-xl"
+          />
+          <img
+            src="/product-large.jpg"
+            class="object-cover h-32 shadow-lg rounded-xl"
+          />
+        </div>
       </div>
       <div class="mt-4">
         <div class="flex justify-between">
@@ -21,15 +39,18 @@
             Varenr: 236675
           </span>
         </div>
-        <h1 class="mt-2 text-3xl font-medium text-gray-900">
+        <h1 class="mt-2 text-3xl font-medium text-bsand-800">
           Dobbelt silkedyne med bomuldsvår
         </h1>
 
-        <div class="mt-2">
-          <span class="text-2xl font-medium text-gray-900">1.599,00 kr</span>
+        <div class="mt-2 space-x-2">
+          <span class="text-2xl font-medium line-through text-bsand-400"
+            >2.599,00 kr</span
+          >
+          <span class="text-2xl font-medium text-bsand-800">1.599,00 kr</span>
         </div>
 
-        <p class="leading-relaxed">
+        <p class="leading-relaxed text-bsand-600">
           Denne dobbeltdyne er et godt valg hvis I er to der ønsker at sove i
           silke. Dynen er fyldt med 370 g silke per m2 og fås i to længder,
           200x200 cm samt 200x220 cm. Silken er syet ind i et lækkert bomuldsvår
@@ -37,25 +58,30 @@
           produkter på Silkeland.dk.
         </p>
 
-        <div class="flex flex-col pt-4 mt-4 space-y-4 border-t-2">
+        <div class="flex flex-col pt-4 mt-4 space-y-4">
           <TypePicker
             v-for="(type, index) in types"
             :key="index"
+            class="pt-4 border-t border-bsand-200"
             :product="type.product"
             :label="type.label"
             :option="type.options"
           />
         </div>
 
-        <div class="flex">
-          <button
-            class="flex px-6 py-2 ml-auto text-white transition duration-100 border-0 rounded bg-bgreen-400 focus:outline-none hover:bg-bgreen-600"
-          >
-            Button
-          </button>
+        <div class="flex justify-end mt-4">
+          <span class="inline-flex rounded-md shadow-sm">
+            <button
+              type="button"
+              class="inline-flex items-center px-6 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-bgreen-400 hover:bg-bgreen-500 focus:outline-none focus:border-bgreen-700 focus:shadow-outline-bgreen active:bg-bgreen-700"
+            >
+              Læg i kurv
+            </button>
+          </span>
         </div>
       </div>
     </div>
+    <ProductTabs class="mt-16 mb-16" />
   </div>
 </template>
 
@@ -70,9 +96,9 @@ export default {
           options: ['200 x 200 cm', '200 x 220 cm'],
         },
         {
-          product: 'Silke pudebetræk (champagne)',
-          options: ['45 x 60 cm', '50 x 60 cm', '60 x 63 cm'],
+          product: 'Dobbelt silkesengetøj (cafe au lait)',
           label: 'Størrelse',
+          options: ['200 x 200 cm', '200 x 220 cm'],
         },
       ],
     }

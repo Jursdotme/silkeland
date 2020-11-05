@@ -1,8 +1,8 @@
 <template>
   <div>
-    <span class="font-semibold">{{ product }}</span>
+    <span class="font-semibold text-bsand-700">{{ product }}</span>
     <div class="flex items-center mt-2 space-x-2">
-      <span class="text-sm font-semibold tracking-wide uppercase"
+      <span class="text-sm font-medium tracking-wide uppercase text-bsand-500"
         >{{ label }}:</span
       >
       <div>
@@ -26,6 +26,54 @@
           </nav>
         </div>
       </div>
+      <div class="flex items-center justify-end flex-1 space-x-2">
+        <button @click="decrease">
+          <svg
+            class="w-6 h-6 text-bsand-500"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+            ></path>
+          </svg>
+        </button>
+        <div class="w-12">
+          <label
+            for="email"
+            class="block text-sm font-medium leading-5 text-gray-700 sr-only"
+            >Antal</label
+          >
+          <div class="relative mt-1 rounded-md shadow-sm">
+            <input
+              id="email"
+              class="block w-full form-input sm:text-sm sm:leading-5"
+              :value="amount"
+            />
+          </div>
+        </div>
+        <button @click="increase">
+          <svg
+            class="w-6 h-6 text-bsand-500"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+            ></path>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -46,8 +94,24 @@ export default {
       // Object or array defaults must be returned from
       // a factory function
       default() {
-        return ['Option 1', 'Option 2', 'Option 3']
+        return ['200 x 200 cm', '200 x 220 cm']
       },
+    },
+  },
+  data() {
+    return {
+      amount: 1,
+    }
+  },
+  methods: {
+    increase() {
+      this.amount++
+    },
+    decrease() {
+      this.amount--
+    },
+    reset() {
+      this.amount = 0
     },
   },
 }
