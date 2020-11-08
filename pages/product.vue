@@ -72,6 +72,7 @@
           </div>
         </div>
       </div>
+      <SellingPoints class="mb-16" />
       <ProductTabs class="mt-16 mb-16" />
     </div>
     <div class="px-4 pt-16 bg-white">
