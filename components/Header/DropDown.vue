@@ -45,7 +45,6 @@
     >
       <div
         v-if="isActive"
-        v-click-outside="closeMenu"
         class="absolute w-screen max-w-xs px-2 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0"
       >
         <div class="rounded-lg shadow-lg">
@@ -56,6 +55,7 @@
               <nuxt-link
                 v-for="(item, index) in content.items"
                 :key="index"
+                v-click-outside="closeMenu"
                 :to="item.link"
                 class="block p-3 -m-3 space-y-1 transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
               >
