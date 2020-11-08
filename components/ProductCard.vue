@@ -6,7 +6,9 @@
         class="absolute px-4 py-1 text-white -translate-y-1/2 bg-orange-500 rounded-br-3xl"
         >Tilbud</span
       >
-      <img class="object-cover w-full h-48" :src="product.image" alt="" />
+      <div class="aspect-w-16 aspect-h-9">
+        <img class="object-cover" :src="product.image" alt="" />
+      </div>
     </nuxt-link>
     <div class="flex flex-col justify-between flex-1 p-6">
       <div class="flex-1">

@@ -8,7 +8,13 @@ module.exports = {
     typography: {
       default: {
         css: {
-          color: '#333',
+          color: '#685a50',
+          h2: {
+            color: '#847667',
+          },
+          h1: {
+            color: '#7e9e3e',
+          },
           a: {
             color: '#7e9e3e',
             '&:hover': {
@@ -58,5 +64,5 @@ module.exports = {
   variants: {
     translate: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
   },
-  plugins: [require('@tailwindcss/ui')],
+  plugins: [require('@tailwindcss/ui'), require('@tailwindcss/aspect-ratio')],
 }

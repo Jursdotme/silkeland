@@ -1,13 +1,17 @@
 <template>
   <div>
     <span class="font-semibold text-bsand-700">{{ product }}</span>
-    <div class="flex items-center mt-2 space-x-2">
-      <span class="text-sm font-medium tracking-wide uppercase text-bsand-500"
+    <div class="flex flex-wrap items-center mt-2 space-x-2 sm:flex-no-wrap">
+      <span
+        class="w-full text-sm font-medium tracking-wide uppercase sm:w-auto text-bsand-500"
         >{{ label }}:</span
       >
       <div>
         <div class="sm:hidden">
-          <select aria-label="Selected tab" class="block w-full form-select">
+          <select
+            aria-label="Selected tab"
+            class="block w-full -ml-2 form-select md:ml-2"
+          >
             <option v-for="(option, index) in options" :key="index">
               {{ option }}
             </option>
@@ -51,8 +55,8 @@
           >
           <div class="relative mt-1 rounded-md shadow-sm">
             <input
-              id="email"
-              class="block w-full form-input sm:text-sm sm:leading-5"
+              id="amount"
+              class="block w-full text-center form-input sm:text-sm sm:leading-5"
               :value="amount"
             />
           </div>

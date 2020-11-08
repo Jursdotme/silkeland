@@ -12,18 +12,18 @@
         <div class="flex-1">
           <div id="emaerket-widget-m9agjja37hi"></div>
         </div>
-        <a
-          href="#"
+        <nuxt-link
+          to="/handelsbetingelser"
           class="px-4 py-3 text-sm text-bgreen-300 hover:text-bgreen-600"
-          >Handelsbetingelser</a
+          >Handelsbetingelser</nuxt-link
         >
-        <a
-          href="#"
+        <nuxt-link
+          to="/omos"
           class="px-4 py-3 text-sm text-bgreen-300 hover:text-bgreen-600"
-          >Om os</a
+          >Om os</nuxt-link
         >
-        <a
-          href="#"
+        <nuxt-link
+          to="/kontakt"
           class="flex items-center py-3 pl-4 pr-2 space-x-4 text-sm text-bgreen-300 hover:text-bgreen-600"
           ><span>Kontakt</span>
           <div
@@ -46,7 +46,7 @@
             ></span>
             <span>(+45) 4358 4494</span>
           </div>
-        </a>
+        </nuxt-link>
       </div>
     </div>
     <div class="relative bg-white shadow">
@@ -99,12 +99,7 @@
             >
               Silkesengetøj
             </nuxt-link>
-            <a
-              href="#"
-              class="inline-flex items-center text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
-            >
-              Silkens ABC
-            </a>
+            <DropDown :content="silkensabc" />
           </nav>
           <div
             class="flex-col items-end justify-end hidden xl:items-center xl:space-x-8 lg:flex xl:flex-row"
@@ -338,18 +333,18 @@
               </div>
               <div class="px-5 py-6 space-y-6">
                 <div class="grid grid-cols-2 gap-y-4 gap-x-8">
-                  <a
-                    href="#"
+                  <nuxt-link
+                    to="/handelsbetingelser"
                     class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
                   >
                     Handelsbetingelser
-                  </a>
-                  <a
-                    href="#"
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/omos"
                     class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
                   >
                     Om os
-                  </a>
+                  </nuxt-link>
                   <a
                     href="#"
                     class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
@@ -431,6 +426,33 @@ export default {
   data() {
     return {
       isMobileNavOpen: false,
+      silkensabc: {
+        label: 'Silkens ABC',
+        items: [
+          {
+            label: 'Fordele ved Silkedyner',
+            description: 'Lær om de mange fordele ved at sove med silkedyner.',
+            link: '/silkensabc',
+          },
+          {
+            label: 'Den gode kvalitet',
+            description: 'Hvad gør en dyne fra Silkeland speciel?',
+            link: '/silkensabc',
+          },
+          {
+            label: 'Hvorfor Silkeland?',
+            description:
+              'Silkelands produkter er produceret af den bedste langfibrede Mulberry silke.',
+            link: '/silkensabc',
+          },
+          {
+            label: 'Hvilken dyne skal jeg vælge?',
+            description:
+              'Her får du et par tips til, hvordan du finder den dyne som passer lige præcis til dig.',
+            link: '/silkensabc',
+          },
+        ],
+      },
     }
   },
 }

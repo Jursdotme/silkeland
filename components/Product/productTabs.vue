@@ -189,9 +189,9 @@ export default {
   data() {
     return {
       activeClass:
-        'px-1 py-4 ml-8 text-sm md:text-lg font-medium leading-5 whitespace-no-wrap border-b-2 text-bgreen-600 border-bgreen-500 focus:outline-none focus:text-bgreen-800 focus:border-bgreen-400',
+        'px-4 py-4 text-sm md:text-lg font-medium leading-5 whitespace-no-wrap border-b-2 text-bgreen-600 border-bgreen-500 focus:outline-none focus:text-bgreen-800 focus:border-bgreen-400',
       inactiveClass:
-        'px-1 py-4 ml-8 text-sm md:text-lg font-medium leading-5 text-gray-500 whitespace-no-wrap border-b-2 border-transparent hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300',
+        'px-4 py-4 text-sm md:text-lg font-medium leading-5 text-gray-500 whitespace-no-wrap border-b-2 border-transparent hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300',
       activeTab: 'detaljer',
       tabs: [
         {
