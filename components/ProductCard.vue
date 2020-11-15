@@ -68,7 +68,7 @@
           ></span>
           <span class="text-yellow-700">Restordre</span>
         </div>
-        <div class="flex items-center space-x-2">
+        <div v-if="product.inStock" class="flex items-center space-x-2">
           <span
             ><svg
               class="w-6 h-6 text-bgreen-400"

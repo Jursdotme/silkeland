@@ -56,7 +56,7 @@
           <div class="relative mt-1 rounded-md shadow-sm">
             <input
               id="amount"
-              class="block w-full text-center form-input sm:text-sm sm:leading-5"
+              class="block w-full text-center form-input sm:leading-5"
               :value="amount"
             />
           </div>

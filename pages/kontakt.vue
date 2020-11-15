@@ -11,12 +11,14 @@
       <div
         class="px-4 py-16 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12"
       >
-        <div class="max-w-lg mx-auto">
-          <h2
+        <div
+          class="max-w-lg mx-auto prose-sm prose sm:prose lg:prose-lg xl:prose-2xl"
+        >
+          <h1
             class="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9"
           >
             Kontakt os
-          </h2>
+          </h1>
           <p class="mt-3 text-lg leading-6 text-gray-500">
             Har du et problem med din ordre, et spørgsmål til et produkt eller
             bare et spørgsmål til hvordan du handler med silkeland.dk, så er du

@@ -49,6 +49,8 @@
             alle andre produkter på Silkeland.dk.
           </p>
 
+          <div>(Lagerstatus)</div>
+
           <div class="flex flex-col pt-4 mt-4 space-y-4">
             <TypePicker
               v-for="(type, index) in types"
