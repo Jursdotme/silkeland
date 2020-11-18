@@ -10,7 +10,9 @@
               src="/product-large.jpg"
             />
           </div>
-          <div class="grid grid-cols-2 gap-8 mt-8 lg:grid-cols-4">
+          <div
+            class="grid hidden grid-cols-2 gap-8 mt-8 lg:grid-cols-4 md:grid"
+          >
             <div v-for="index in 4" :key="index" class="aspect-w-1 aspect-h-1">
               <img
                 src="/product-large.jpg"
