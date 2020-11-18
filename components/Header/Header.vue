@@ -138,26 +138,7 @@
             </div>
 
             <span class="inline-flex mt-2 rounded-md shadow-sm xl:mt-0">
-              <a
-                href="#"
-                class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-md bg-bgreen-400 hover:bg-bgreen-500 focus:outline-none focus:border-bgreen-700 focus:shadow-outline-bgreen active:bg-bgreen-700"
-              >
-                Min kurv <span>(0)</span>
-                <svg
-                  class="w-5 h-5 ml-2 -mr-1"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-                  ></path>
-                </svg>
-              </a>
+              <MiniCart />
             </span>
           </div>
         </div>

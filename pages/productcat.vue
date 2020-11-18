@@ -11,8 +11,8 @@
           :product="product"
         />
       </div>
-      <div class="grid grid-cols-3 mt-32">
-        <div class="col-span-2 mx-auto prose">
+      <div class="grid grid-cols-1 mt-32 md:grid-cols-3">
+        <div class="mx-auto mt-8 prose md:col-span-2 md:mt-0">
           <h2>Silkedyne fra Silkeland</h2>
           <p class="lead">
             Der er mange gode grunde til at vælge en silkedyne, når du er på
@@ -48,7 +48,7 @@
             <nuxt-link to="/productcat">plejemiddel</nuxt-link>.
           </p>
         </div>
-        <div class="col-span-1">
+        <div class="col-span-1 col-start-1 row-start-1 md:col-start-3">
           <ProductCatQuote />
         </div>
       </div>
