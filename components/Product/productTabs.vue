@@ -33,9 +33,6 @@
               >- Dobbelt silkedyne med bomuldsvår</span
             >
           </h3>
-          <p class="max-w-2xl mt-1 text-sm leading-5 text-gray-500">
-            Varenummer: 236675
-          </p>
         </div>
         <div class="px-4 py-5 sm:p-0">
           <dl>
