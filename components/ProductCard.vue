@@ -3,7 +3,7 @@
     <nuxt-link to="/product" class="relative flex-shrink-0 overflow-visible">
       <span
         v-if="product.onSale"
-        class="absolute px-4 py-1 text-white -translate-y-1/2 bg-orange-500 rounded-br-3xl"
+        class="absolute z-10 px-4 py-1 text-white -translate-y-1/2 bg-orange-500 rounded-br-3xl"
         >Tilbud</span
       >
       <div class="aspect-w-16 aspect-h-9">
@@ -21,11 +21,18 @@
           <h3 class="mt-2 text-bsand-700">
             {{ product.title }}
           </h3>
-          <p class="mt-3 text-xl font-semibold leading-6 text-bsand-700">
+          <p
+            v-if="product.onSale"
+            class="mt-3 text-xl font-semibold leading-6 text-bsand-700"
+          >
             <span class="line-through text-bsand-200"
               >{{ product.price }},-</span
             >
             {{ product.salePrice }},-
+          </p>
+
+          <p v-else class="mt-3 text-xl font-semibold leading-6 text-bsand-700">
+            {{ product.price }},-
           </p>
         </nuxt-link>
       </div>
