@@ -13,7 +13,7 @@
             class="block w-full -ml-2 form-select md:ml-2"
           >
             <option v-for="(option, index) in options" :key="index">
-              {{ option }}
+              {{ option.name }}
             </option>
           </select>
         </div>
@@ -23,9 +23,10 @@
               v-for="(option, index) in options"
               :key="index"
               href="#"
-              class="px-3 py-2 text-sm font-medium leading-5 border-2 rounded-md focus:border-transparent text-bgreen-500 hover:text-bgreen-700 focus:outline-none focus:text-bgreen-700 focus:bg-bgreen-100"
+              :class="option.inStock ? enabled : disabled"
+              class="px-3 py-2 text-sm font-medium leading-5 border-2 rounded-md"
             >
-              {{ option }}
+              {{ option.name }}
             </a>
           </nav>
         </div>
@@ -91,20 +92,27 @@ export default {
     },
     label: {
       type: String,
-      default: 'Dobbelt silkesengetøj (cafe au lait)',
+      default: 'Størrelse',
     },
     options: {
       type: Array,
       // Object or array defaults must be returned from
       // a factory function
       default() {
-        return ['200 x 200 cm', '200 x 220 cm']
+        return [
+          { name: '200 x 200 cm', inStock: true },
+          { name: '200 x 220 cm', inStock: false },
+        ]
       },
     },
   },
   data() {
     return {
       amount: 1,
+      enabled:
+        'border-bgreen-400 focus:border-transparent text-bgreen-500 hover:text-bgreen-700 focus:text-bgreen-700 focus:bg-bgreen-100 focus:outline-none',
+      disabled:
+        'focus:border-transparent text-gray-400 focus:text-gray-400 border-gray-100 focus:border-gray-100 bg-gray-100 cursor-not-allowed',
     }
   },
   methods: {
