@@ -451,6 +451,28 @@ export default {
               'Her får du et par tips til, hvordan du finder den dyne som passer lige præcis til dig.',
             link: '/silkensabc',
           },
+          {
+            label: 'Håndlavet eller maskinlavet?',
+            description: 'Lær om de mange fordele ved at sove med silkedyner.',
+            link: '/silkensabc',
+          },
+          {
+            label: 'Silkepleje',
+            description: 'Hvad gør en dyne fra Silkeland speciel?',
+            link: '/silkensabc',
+          },
+          {
+            label: '100% naturprodukt',
+            description:
+              'Silkelands produkter er produceret af den bedste langfibrede Mulberry silke.',
+            link: '/silkensabc',
+          },
+          {
+            label: 'Økologisk fra A-Z',
+            description:
+              'Her får du et par tips til, hvordan du finder den dyne som passer lige præcis til dig.',
+            link: '/silkensabc',
+          },
         ],
       },
     }

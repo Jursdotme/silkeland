@@ -45,12 +45,12 @@
     >
       <div
         v-if="isActive"
-        class="absolute w-screen max-w-xs px-2 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0"
+        class="absolute w-screen max-w-3xl px-2 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0"
       >
         <div class="rounded-lg shadow-lg">
           <div class="overflow-hidden rounded-lg shadow-xs">
             <div
-              class="relative z-20 grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8"
+              class="relative z-20 grid grid-cols-2 gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8"
             >
               <nuxt-link
                 v-for="(item, index) in content.items"
