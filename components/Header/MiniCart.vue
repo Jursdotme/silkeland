@@ -174,7 +174,7 @@
 export default {
   data() {
     return {
-      isOpen: true,
+      isOpen: false,
       products: [
         {
           id: 1,
