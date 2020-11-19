@@ -3,8 +3,8 @@
     <Hero />
     <TrustPilot />
     <SellingPoints />
-    <Categories />
     <LatestProducts />
+    <Categories />
     <Feature />
     <InfoSection />
     <CallToAction />
