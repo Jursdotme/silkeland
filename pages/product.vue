@@ -85,7 +85,7 @@
             />
           </div>
 
-          <div class="flex justify-end mt-4">
+          <div class="flex justify-end mt-8">
             <span class="inline-flex rounded-md shadow-sm">
               <button
                 type="button"
@@ -97,7 +97,9 @@
           </div>
         </div>
       </div>
-      <SellingPoints class="mb-16" />
+      <div class="p-8 mt-16 bg-white shadow-lg rounded-xl">
+        <SellingPointsLight class="" />
+      </div>
       <ProductTabs class="mt-16 mb-16" />
     </div>
     <div class="px-4 pt-16 bg-white">
