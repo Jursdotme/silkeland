@@ -64,5 +64,5 @@ module.exports = {
   variants: {
     translate: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
   },
-  plugins: [require('@tailwindcss/ui'), require('@tailwindcss/aspect-ratio')],
+  plugins: [require('@tailwindcss/ui'), require('@tailwindcss/aspect-ratio'),require('@tailwindcss/forms')],
 }
