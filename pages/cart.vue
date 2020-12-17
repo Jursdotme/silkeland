@@ -1,8 +1,8 @@
 <template>
   <div class="px-4 mx-auto mt-24 max-w-7xl">
-    <h1 class="">Kurv</h1>
+    <h1 class="text-2xl font-bold leading-6 text-bsand-600">Kurv</h1>
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="flex flex-col">
+    <div class="flex flex-col mt-4">
       <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="block min-w-full gap-8 py-2 sm:px-6 lg:px-8">
           <CartTable />

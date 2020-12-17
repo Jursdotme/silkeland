@@ -18,13 +18,13 @@
             </th>
             <th
               scope="col"
-              class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-50 sm:hidden md:table-cell"
+              class="px-6 py-3 text-xs font-medium tracking-wider text-center text-gray-500 uppercase bg-gray-50 sm:hidden md:table-cell"
             >
               Antal
             </th>
             <th
               scope="col"
-              class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-50"
+              class="px-6 py-3 text-xs font-medium tracking-wider text-right text-gray-500 uppercase bg-gray-50"
             >
               Pris
             </th>
@@ -41,29 +41,30 @@
           >
             <td class="col-span-2 px-6 pt-4 pb-2 sm:py-4 whitespace-nowrap">
               <div class="flex items-center">
-                <div class="flex-shrink-0 w-20 h-20">
+                <div class="flex-shrink-0 w-20 h-20 shadow">
                   <img class="w-20 h-20 rounded" :src="product.image" alt="" />
                 </div>
                 <div class="ml-4">
-                  <nuxt-link
-                    to="/product"
-                    class="text-sm font-medium text-gray-900"
-                  >
+                  <nuxt-link to="/product" class="font-semibold text-bsand-700">
                     {{ product.title }}
                   </nuxt-link>
                 </div>
               </div>
             </td>
             <td class="px-6 py-2 sm:py-4 whitespace-nowrap">
-              <div class="text-sm text-gray-900">Størrelse</div>
+              <div
+                class="text-sm font-medium tracking-wide uppercase text-bsand-500"
+              >
+                Størrelse
+              </div>
               <div class="text-sm text-gray-500">140 x 200 cm</div>
             </td>
             <td
               class="flex justify-end px-6 py-2 sm:py-4 whitespace-nowrap sm:hidden md:table-cell"
             >
-              <span class="inline-flex text-xs font-semibold sm:px-2">
+              <span class="flex justify-center text-xs font-semibold sm:px-2">
                 <div class="flex items-center justify-end flex-1 space-x-2">
-                  <button @click="decrease">
+                  <button>
                     <svg
                       class="w-6 h-6 text-bsand-500"
                       fill="none"
@@ -93,7 +94,7 @@
                       />
                     </div>
                   </div>
-                  <button @click="increase">
+                  <button>
                     <svg
                       class="w-6 h-6 text-bsand-500"
                       fill="none"
@@ -159,7 +160,7 @@
       <div class="flex justify-end">
         <button
           type="submit"
-          class="inline-flex justify-center px-4 py-2 ml-3 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-bgreen-400 hover:bg-bgreen-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bgreen-300"
+          class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-bgreen-700 bg-bgreen-100 hover:bg-bgreen-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bgreen-500"
         >
           Opdater kurv
         </button>
