@@ -41,8 +41,8 @@
           >
             <td class="col-span-2 px-6 pt-4 pb-2 sm:py-4 whitespace-nowrap">
               <div class="flex items-center">
-                <div class="flex-shrink-0 w-10 h-10">
-                  <img class="w-10 h-10 rounded" :src="product.image" alt="" />
+                <div class="flex-shrink-0 w-20 h-20">
+                  <img class="w-20 h-20 rounded" :src="product.image" alt="" />
                 </div>
                 <div class="ml-4">
                   <nuxt-link
