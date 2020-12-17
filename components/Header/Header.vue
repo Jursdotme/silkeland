@@ -116,8 +116,9 @@
                   class="block w-full pr-10 form-input sm:text-sm sm:leading-5"
                   placeholder="Søg..."
                 />
-                <div
-                  class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none"
+                <nuxt-link
+                  to="/search"
+                  class="absolute inset-y-0 right-0 flex items-center pr-3"
                 >
                   <svg
                     class="w-5 h-5 text-gray-400"
@@ -133,7 +134,7 @@
                       d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                     ></path>
                   </svg>
-                </div>
+                </nuxt-link>
               </div>
             </div>
 
