@@ -11,7 +11,7 @@
             id="coupon"
             type="text"
             name="coupon"
-            class="block w-full border-gray-300 rounded-md shadow-sm focus:ring-bgreen-400 focus:border-bgreen-400 sm:text-sm"
+            class="block w-full border border-gray-300 rounded-md shadow-sm focus:ring-bgreen-400 focus:border-bgreen-400 sm:text-sm"
             placeholder="indtast rabatkode..."
           />
           <div class="pt-5">
@@ -39,7 +39,7 @@
             id="giftcard"
             type="text"
             name="giftcard"
-            class="block w-full border-gray-300 rounded-md shadow-sm focus:ring-bgreen-400 focus:border-bgreen-400 sm:text-sm"
+            class="block w-full border border-gray-300 rounded-md shadow-sm focus:ring-bgreen-400 focus:border-bgreen-400 sm:text-sm"
             placeholder="indtast rabatkode..."
           />
           <div class="pt-5">
