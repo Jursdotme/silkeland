@@ -10,9 +10,7 @@
               src="/product-large.jpg"
             />
           </div>
-          <div
-            class="grid hidden grid-cols-2 gap-8 mt-8 lg:grid-cols-4 md:grid"
-          >
+          <div class="grid grid-cols-2 gap-8 mt-8 lg:grid-cols-4 md:grid">
             <div v-for="index in 4" :key="index" class="aspect-w-1 aspect-h-1">
               <img
                 src="/product-large.jpg"
@@ -24,7 +22,7 @@
         <div class="mt-4 md:col-span-2 lg:col-span-1">
           <div class="flex justify-between">
             <span class="font-medium leading-5 uppercase text-bgreen-400">
-              SILKEDYNE
+              Silkedyne
             </span>
           </div>
           <h1 class="mt-2 text-3xl font-medium text-bsand-800">
