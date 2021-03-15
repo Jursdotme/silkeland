@@ -99,7 +99,7 @@
             >
               Silkesengetøj
             </nuxt-link>
-            <DropDown :content="silkensabc" />
+            <HeaderDropDown :content="silkensabc" />
           </nav>
           <div
             class="flex-col items-end justify-end hidden xl:items-center xl:space-x-8 lg:flex xl:flex-row"
@@ -139,7 +139,7 @@
             </div>
 
             <span class="inline-flex mt-2 rounded-md shadow-sm xl:mt-0">
-              <MiniCart />
+              <HeaderMiniCart />
             </span>
           </div>
         </div>

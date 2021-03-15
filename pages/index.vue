@@ -1,12 +1,12 @@
 <template>
   <div>
-    <Hero />
-    <TrustPilot />
-    <SellingPoints />
-    <LatestProducts />
-    <Categories />
-    <Feature />
-    <InfoSection />
-    <CallToAction />
+    <FrontpageHero />
+    <FrontpageTrustPilot />
+    <FrontpageSellingPoints />
+    <FrontpageLatestProducts />
+    <FrontpageCategories />
+    <FrontpageFeature />
+    <FrontpageInfoSection />
+    <FrontpageCallToAction />
   </div>
 </template>
