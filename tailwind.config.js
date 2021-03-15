@@ -1,8 +1,6 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: [],
   theme: {
     typography: {
@@ -58,11 +56,16 @@ module.exports = {
           800: '#2f2723',
           900: '#120e0d',
         },
+        amber: colors.amber,
+        teal: colors.teal,
       },
     },
   },
   variants: {
     translate: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
   },
-  plugins: [require('@tailwindcss/ui'), require('@tailwindcss/aspect-ratio'),require('@tailwindcss/forms')],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
+  ],
 }
