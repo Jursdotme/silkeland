@@ -10,3 +10,8 @@
     <FrontpageCallToAction />
   </div>
 </template>
+<script>
+export default {
+  layout: 'transparentHeader',
+}
+</script>
