@@ -1,4 +1,4 @@
-# silkeland Sommerkampagne
+# silkeland Efterårskampagne
 
 ## Build Setup
 
