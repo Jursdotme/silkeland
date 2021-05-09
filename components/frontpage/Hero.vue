@@ -3,60 +3,68 @@
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-  <div>
+  <div
+    style="background-image: url(max-titov-0xFuyqu7AA4-unsplash.jpg)"
+    class="bg-center bg-cover"
+  >
     <div
-      style="background-image: url(efteraar-hero@2x.jpg)"
-      class="bg-center bg-cover aspect-h-5 aspect-w-4 md:aspect-h-3 md:aspect-w-5 sm:aspect-h-2 xl:aspect-h-2 xl:aspect-w-4"
+      class="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-44 lg:text-left"
     >
-      <div class="w-full mx-auto text-center max-w-7xl mt-1/3-w lg:text-left">
-        <div class="flex items-center px-4 mx-auto lg:w-2/3 sm:px-8 xl:pr-16">
-          <h2 class="sr-only">Silkelands Efterårsudsalg</h2>
+      <div class="px-4 mx-auto lg:w-2/3 sm:px-8 xl:pr-16">
+        <img src="xmas.svg" alt="" class="text-white fill-current" />
+        <h2 class="sr-only">Silke er perfekt til Sommervarmen</h2>
+        <p
+          class="max-w-md mx-auto mt-3 text-lg text-center text-white sm:text-xl md:mt-5 md:max-w-3xl"
+        >
+          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
+          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
+          aliqua.
+        </p>
 
-          <div class="hidden max-w-xs mx-auto mt-8 rounded-md shadow sm:block">
-            <nuxt-link
-              to="/efteraarskampagne"
-              class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-amber-600 hover:bg-amber-700 md:py-4 md:text-lg md:px-10"
-            >
-              Se de gode tilbud
-            </nuxt-link>
-          </div>
-
-          <div
-            class="flex-col justify-center hidden max-w-sm mx-auto mt-8 space-y-2 md:max-w-full sm:space-y-0 sm:text-left sm:space-x-2 sm:flex-row xl:flex"
+        <div class="max-w-xs mx-auto mt-8 rounded-md shadow">
+          <nuxt-link
+            to="/sommerkampagne"
+            class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-red-700 border border-transparent rounded-md hover:bg-red-800 md:py-4 md:text-lg md:px-10"
           >
-            <a
-              href="#"
-              class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-amber-700 bg-amber-100 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"
-            >
-              Silkedyner
-            </a>
-            <a
-              href="#"
-              class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-amber-700 bg-amber-100 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"
-            >
-              Silkepuder
-            </a>
-            <a
-              href="#"
-              class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-amber-700 bg-amber-100 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"
-            >
-              Silkesengetøj
-            </a>
-            <a
-              href="#"
-              class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-amber-700 bg-amber-100 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"
-            >
-              Gavekort
-            </a>
-          </div>
+            Se vores sommertilbud
+          </nuxt-link>
+        </div>
+        <a
+          href="#"
+          class="block mt-4 font-semibold text-center text-red-500 underline"
+        >
+          Hvorfor silke?
+        </a>
+
+        <div
+          class="flex flex-col justify-center max-w-sm mx-auto mt-8 space-y-2 md:max-w-full sm:space-y-0 sm:text-left sm:space-x-2 sm:flex-row"
+        >
+          <a
+            href="#"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+          >
+            Silkedyner
+          </a>
+          <a
+            href="#"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+          >
+            Silkepuder
+          </a>
+          <a
+            href="#"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+          >
+            Silkesengetøj
+          </a>
+          <a
+            href="#"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+          >
+            Gavekort
+          </a>
         </div>
       </div>
     </div>
-    <nuxt-link
-      to="/efteraarskampagne"
-      class="flex items-center justify-center px-8 py-3 m-4 text-base font-medium text-white border border-transparent rounded-md sm:hidden bg-amber-600 hover:bg-amber-700 md:py-4 md:text-lg md:px-10"
-    >
-      Se de gode tilbud
-    </nuxt-link>
   </div>
 </template>
