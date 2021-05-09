@@ -59,6 +59,12 @@ module.exports = {
         amber: colors.amber,
         teal: colors.teal,
       },
+      margin: {
+        '1/2-w': '50vw',
+        '1/3-w': '33.333vw',
+        '1/4-w': '25vw',
+        '1/5-w': '20vw',
+      },
     },
   },
   variants: {
