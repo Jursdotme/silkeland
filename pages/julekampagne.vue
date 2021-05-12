@@ -3,7 +3,7 @@
     <div class="relative mx-auto max-w-7xl">
       <ProductCatTopSommer />
       <div
-        class="grid max-w-lg gap-8 mx-auto mt-12 md:grid-cols-2 lg:grid-cols-4 md:max-w-none"
+        class="grid max-w-lg mx-auto mt-12 gap-x-8 gap-y-16 md:grid-cols-2 lg:grid-cols-4 md:max-w-none"
       >
         <ProductCardSummer
           v-for="product in products"
