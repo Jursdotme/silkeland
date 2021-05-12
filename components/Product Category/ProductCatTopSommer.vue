@@ -2,23 +2,23 @@
   <div class="relative px-2 sm:px-6 lg:px-8">
     <div>
       <figure
-        class="flex justify-center w-full bg-cover rounded-lg shadow-xl sm-h-64 md:h-128"
-        style="background-image: url(summer-hero.jpg)"
+        class="flex justify-center w-full bg-bottom bg-cover rounded-lg shadow-xl sm-h-64 md:h-128"
+        style="background-image: url(annie-spratt-j_8V-SWMKd8-unsplash.jpg)"
       >
-        <img src="summersale.svg" class="max-w-xl mb-16" />
+        <img src="xmas.svg" class="max-w-xl mb-16" />
       </figure>
     </div>
     <div
-      class="relative grid gap-8 pt-8 md:bg-white md:shadow-2xl mx-62 md:mx-8 lg:grid-cols-3 md:-mt-32 md:p-14 rounded-3xl"
+      class="relative grid gap-8 pt-8 md:bg-gray-100 md:shadow-2xl mx-62 md:mx-8 lg:grid-cols-3 md:-mt-32 md:p-14 rounded-3xl"
     >
       <div class="col-span-2 mx-auto text-lg max-w-prose">
         <h1
-          class="text-base font-semibold leading-6 tracking-wide uppercase text-amber-500"
+          class="text-base font-semibold leading-6 tracking-wide text-red-500 uppercase"
         >
           Silkedyner
         </h1>
         <p
-          class="mt-2 mb-8 text-2xl font-extrabold leading-8 tracking-tight text-gray-900 md:text-3xl sm:text-4xl sm:leading-10"
+          class="mt-2 mb-8 text-2xl font-extrabold leading-8 tracking-tight text-green-700 md:text-3xl sm:text-4xl sm:leading-10"
         >
           Få et allergivenligt sovemiljø med luksusdyner i silke
         </p>
