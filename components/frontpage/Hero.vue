@@ -10,10 +10,10 @@
     class="bg-center bg-cover"
   >
     <div
-      class="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-44 lg:text-left"
+      class="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:pt-28 lg:pb-44 lg:text-left"
     >
       <div class="px-4 mx-auto lg:w-2/3 sm:px-8 xl:pr-16">
-        <img src="xmas.svg" alt="" class="text-white fill-current" />
+        <img src="valentines.svg" alt="" class="text-white fill-current" />
         <h2 class="sr-only">Silke er perfekt til Sommervarmen</h2>
         <p
           class="max-w-md mx-auto mt-3 text-lg text-center text-white sm:text-xl md:mt-5 md:max-w-3xl"
@@ -28,7 +28,7 @@
             to="/sommerkampagne"
             class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-bgreen-700 hover:bg-bgreen-800 md:py-4 md:text-lg md:px-10"
           >
-            Se vores sommertilbud
+            Se vores Valentines tilbud
           </nuxt-link>
         </div>
         <a
