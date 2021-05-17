@@ -1,11 +1,11 @@
 <template>
   <div class="relative px-4 pt-16 pb-20 sm:px-6 lg:pt-16 lg:pb-28 lg:px-8">
     <div class="relative mx-auto max-w-7xl">
-      <ProductCatTopSommer />
+      <ProductCatTopPaaske />
       <div
         class="grid max-w-lg gap-8 mx-auto mt-12 md:grid-cols-2 lg:grid-cols-4 md:max-w-none"
       >
-        <ProductCardSummer
+        <ProductCardPaaske
           v-for="product in products"
           :key="product.id"
           :product="product"

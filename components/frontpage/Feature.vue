@@ -12,11 +12,11 @@
     <div
       class="relative z-10 flex flex-col justify-center row-start-1 p-4 bg-white rounded-t-none shadow-2xl sm:mx-4 sm:p-16 lg:my-32 lg:col-span-3 xl:col-span-2 lg:col-start-3 xl:col-start-4 rounded-b-3xl sm:rounded-3xl sm:-mt-16 lg:mx-0"
     >
-      <p class="text-sm font-medium text-red-500 uppercase sm:text-base">
+      <p class="text-sm font-medium uppercase text-bgreen-500 sm:text-base">
         Cras fermentum leo sed
       </p>
       <h2
-        class="mt-4 text-2xl font-bold leading-none text-red-600 uppercase sm:text-3xl md:text-5xl"
+        class="mt-4 text-2xl font-bold leading-none uppercase text-bgreen-600 sm:text-3xl md:text-5xl"
       >
         Nam pharetra vel
       </h2>
@@ -29,7 +29,7 @@
         <div class="rounded-md shadow">
           <a
             href="#"
-            class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-red-400 border border-transparent rounded-md hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red"
+            class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-bgreen-400 hover:bg-bgreen-500 focus:outline-none focus:border-bgreen-700 focus:shadow-outline-bgreen"
           >
             Køb nu
           </a>
@@ -37,7 +37,7 @@
         <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
           <a
             href="#"
-            class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-red-600 transition duration-150 ease-in-out bg-red-100 border border-transparent rounded-md hover:text-red-700 hover:bg-red-200 focus:outline-none focus:border-red-300 focus:shadow-outline-red"
+            class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out border border-transparent rounded-md text-bgreen-600 bg-bgreen-100 hover:text-bgreen-700 hover:bg-bgreen-200 focus:outline-none focus:border-bgreen-300 focus:shadow-outline-bgreen"
           >
             Se alle tilbud
           </a>

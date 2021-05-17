@@ -13,13 +13,13 @@
         >
           Klar til at gå igang?
         </h2>
-        <p class="text-lg text-red-600">Start your free trial today.</p>
+        <p class="text-lg text-bgreen-600">Start your free trial today.</p>
       </div>
       <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-red-500 border border-transparent rounded-md hover:bg-red-600 focus:outline-none focus:shadow-outline"
+            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-bgreen-500 hover:bg-bgreen-600 focus:outline-none focus:shadow-outline"
           >
             Get started
           </a>
@@ -27,7 +27,7 @@
         <div class="inline-flex ml-3 rounded-md shadow">
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-red-700 transition duration-150 ease-in-out bg-red-100 border border-transparent rounded-md hover:bg-red-200 hover:text-red-800 focus:outline-none focus:shadow-outline"
+            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out border border-transparent rounded-md text-bgreen-700 bg-bgreen-100 hover:bg-bgreen-200 hover:text-bgreen-800 focus:outline-none focus:shadow-outline"
           >
             Learn more
           </a>

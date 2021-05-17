@@ -32,7 +32,18 @@ module.exports = {
       colors: {
         white: '#ffffff',
         black: '#000000',
-        bgreen: colors.rose,
+        bgreen: {
+          50: '#f4faf6',
+          100: '#e3f2ea',
+          200: '#d1ebe2',
+          300: '#c0e3d7',
+          400: '#a5c8be',
+          500: '#89aca5',
+          600: '#6e918c',
+          700: '#537673',
+          800: '#375a5a',
+          900: '#1c3d3f',
+        },
         bsand: {
           50: '#f7f6f4',
           100: '#f9f7f6',

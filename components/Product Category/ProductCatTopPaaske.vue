@@ -2,18 +2,15 @@
   <div class="relative px-2 sm:px-6 lg:px-8">
     <div>
       <figure
-        class="flex justify-center w-full bg-cover rounded-lg shadow-xl sm-h-64 md:h-128"
-        style="background-image: url(summer-hero.jpg)"
-      >
-        <img src="summersale.svg" class="max-w-xl mb-16" />
-      </figure>
+        class="flex justify-center w-full bg-cover rounded-lg shadow-xl sm-h-64 md:h-128 hero"
+      ></figure>
     </div>
     <div
       class="relative grid gap-8 pt-8 md:bg-white md:shadow-2xl mx-62 md:mx-8 lg:grid-cols-3 md:-mt-32 md:p-14 rounded-3xl"
     >
       <div class="col-span-2 mx-auto text-lg max-w-prose">
         <h1
-          class="text-base font-semibold leading-6 tracking-wide uppercase text-amber-500"
+          class="text-base font-semibold leading-6 tracking-wide uppercase text-bgreen-500"
         >
           Silkedyner
         </h1>
@@ -42,3 +39,8 @@
     </div>
   </div>
 </template>
+<style scoped>
+.hero {
+  background-image: url(https://images.unsplash.com/photo-1488867605300-0380106bc701?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&q=80);
+}
+</style>
