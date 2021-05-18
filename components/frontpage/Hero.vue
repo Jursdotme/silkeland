@@ -4,17 +4,18 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
   <div
-    style="background-image: url(summer-hero.jpg)"
-    class="bg-center bg-cover"
+    style="background-image: url(januar-hero.jpg)"
+    class="bg-bottom bg-cover"
   >
     <div
-      class="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-44 lg:text-left"
+      class="w-full pt-16 pb-20 mx-auto text-center lg:pb-96 lg:pt-24 lg:text-left max-w-7xl"
     >
-      <div class="px-4 mx-auto lg:w-2/3 sm:px-8 xl:pr-16">
-        <img src="sommervarmen.svg" alt="" class="text-white fill-current" />
-        <h2 class="sr-only">Silke er perfekt til Sommervarmen</h2>
+      <div class="px-4 mx-auto lg:w-1/2 sm:px-8 xl:pr-16">
+        <h2 class="text-6xl font-black text-center uppercase">
+          Stort Januarudsalg
+        </h2>
         <p
-          class="max-w-md mx-auto mt-3 text-lg text-center text-white sm:text-xl md:mt-5 md:max-w-3xl"
+          class="max-w-md mx-auto mt-3 text-lg text-center sm:text-xl md:mt-5 md:max-w-3xl"
         >
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
           cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
@@ -23,18 +24,12 @@
 
         <div class="max-w-xs mx-auto mt-8 rounded-md shadow">
           <nuxt-link
-            to="/sommerkampagne"
+            to="/januarudsalg"
             class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-amber-600 hover:bg-amber-700 md:py-4 md:text-lg md:px-10"
           >
-            Se vores sommertilbud
+            Se vores Januarudsalg
           </nuxt-link>
         </div>
-        <a
-          href="#"
-          class="block mt-4 font-semibold text-center underline text-amber-500"
-        >
-          Hvorfor silke?
-        </a>
 
         <div
           class="flex flex-col justify-center max-w-sm mx-auto mt-8 space-y-2 md:max-w-full sm:space-y-0 sm:text-left sm:space-x-2 sm:flex-row"
