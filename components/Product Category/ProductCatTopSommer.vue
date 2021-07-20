@@ -3,9 +3,9 @@
     <div>
       <figure
         class="flex justify-center w-full bg-cover rounded-lg shadow-xl sm-h-64 md:h-128"
-        style="background-image: url(summer-hero.jpg)"
+        style="background-image: url(ricky-kharawala-pVOOebNvs_M-unsplash.jpg)"
       >
-        <img src="summersale.svg" class="max-w-xl mb-16" />
+        <img src="valentines.svg" class="max-w-xl mb-16" />
       </figure>
     </div>
     <div
@@ -13,7 +13,7 @@
     >
       <div class="col-span-2 mx-auto text-lg max-w-prose">
         <h1
-          class="text-base font-semibold leading-6 tracking-wide uppercase text-amber-500"
+          class="text-base font-semibold leading-6 tracking-wide text-red-500 uppercase"
         >
           Silkedyner
         </h1>

@@ -4,9 +4,7 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
   <div
-    style="
-      background-image: url(https://images.unsplash.com/photo-1524835391568-32c8f7016d73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2560&q=80);
-    "
+    style="background-image: url(ricky-kharawala-pVOOebNvs_M-unsplash.jpg)"
     class="bg-center bg-cover"
   >
     <div
@@ -25,15 +23,15 @@
 
         <div class="max-w-xs mx-auto mt-8 rounded-md shadow">
           <nuxt-link
-            to="/sommerkampagne"
-            class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-bgreen-700 hover:bg-bgreen-800 md:py-4 md:text-lg md:px-10"
+            to="/valentineskampagne"
+            class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-red-700 border border-transparent rounded-md hover:bg-red-800 md:py-4 md:text-lg md:px-10"
           >
             Se vores Valentines tilbud
           </nuxt-link>
         </div>
         <a
           href="#"
-          class="block mt-4 font-semibold text-center underline text-bgreen-500"
+          class="block mt-4 font-semibold text-center text-white underline"
         >
           Hvorfor silke?
         </a>
@@ -43,25 +41,25 @@
         >
           <a
             href="#"
-            class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-bgreen-700 bg-bgreen-100 hover:bg-bgreen-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bgreen-500"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
           >
             Silkedyner
           </a>
           <a
             href="#"
-            class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-bgreen-700 bg-bgreen-100 hover:bg-bgreen-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bgreen-500"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
           >
             Silkepuder
           </a>
           <a
             href="#"
-            class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-bgreen-700 bg-bgreen-100 hover:bg-bgreen-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bgreen-500"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
           >
             Silkesengetøj
           </a>
           <a
             href="#"
-            class="px-4 py-2 text-sm font-medium text-center border border-transparent rounded-md text-bgreen-700 bg-bgreen-100 hover:bg-bgreen-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bgreen-500"
+            class="px-4 py-2 text-sm font-medium text-center text-red-700 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
           >
             Gavekort
           </a>
