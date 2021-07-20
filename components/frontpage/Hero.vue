@@ -4,17 +4,20 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
   <div
-    style="background-image: url(max-titov-0xFuyqu7AA4-unsplash.jpg)"
-    class="bg-center bg-cover"
+    style="
+      --overlay-image: url('istockphoto-636259188-1024x1024.jpg');
+      --overlay-colors: rgba(120, 186, 232, 0), rgba(120, 186, 100, 0);
+    "
+    class="bg-left-bottom bg-cover bg-overlay"
   >
     <div
       class="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-44 lg:text-left"
     >
-      <div class="px-4 mx-auto lg:w-2/3 sm:px-8 xl:pr-16">
-        <img src="xmas.svg" alt="" class="text-white fill-current" />
+      <div class="px-4 mx-auto text-white lg:w-2/3 sm:px-8 xl:pr-16">
+        <img src="xmas.svg" alt="" class="fill-current svg-shadow" />
         <h2 class="sr-only">Silke er perfekt til Sommervarmen</h2>
         <p
-          class="max-w-md mx-auto mt-3 text-lg text-center text-white sm:text-xl md:mt-5 md:max-w-3xl"
+          class="max-w-md mx-auto mt-3 text-lg text-center sm:text-xl md:mt-5 md:max-w-3xl text-shadow"
         >
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
           cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
@@ -31,7 +34,7 @@
         </div>
         <a
           href="#"
-          class="block mt-4 font-semibold text-center text-red-500 underline"
+          class="block mt-4 font-semibold text-center text-white underline text-shadow"
         >
           Hvorfor silke?
         </a>

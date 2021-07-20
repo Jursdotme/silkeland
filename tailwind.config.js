@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   purge: [],
@@ -73,5 +74,38 @@ module.exports = {
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms'),
+
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        '.bg-overlay': {
+          background:
+            'linear-gradient(var(--overlay-angle, 0deg), var(--overlay-colors)), var(--overlay-image)',
+          'background-position': 'center',
+          'background-size': 'cover',
+        },
+      })
+    }),
+    plugin(function ({ addUtilities }) {
+      const textShadows = {
+        '.text-shadow': {
+          'text-shadow': '2px 2px 4px black',
+        },
+        '.text-shadow-md': {
+          'text-shadow': '4px 4px 8px black',
+        },
+        '.text-shadow-lg': {
+          'text-shadow': '15px 15px 30px black',
+        },
+        '.text-shadow-none': {
+          'text-shadow': 'none',
+        },
+        '.svg-shadow': {
+          '-webkit-filter': 'drop-shadow(3px 3px 2px rgba(0, 0, 0, .7))',
+          filter: 'drop-shadow(3px 3px 2px rgba(0, 0, 0, .7))',
+        },
+      }
+
+      addUtilities(textShadows, ['responsive', 'hover'])
+    }),
   ],
 }
