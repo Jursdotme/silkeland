@@ -4,7 +4,7 @@
   >
     <div class="relative z-0 col-span-4 col-start-1 row-start-1">
       <img
-        src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1352&q=80"
+        src="istockphoto-1222384301-1024x1024.jpg"
         alt=""
         class="object-cover w-full h-full shadow-xl rounded-t-3xl sm:rounded-3xl"
       />
